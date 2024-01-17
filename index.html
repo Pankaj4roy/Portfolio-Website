@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald&family=Pacifico&family=Poppins:wght@400;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="fac.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Pankaj's Portfolio </div>
+                <div class="right">
+             <ul>
+               <a href=""><li>Home</li></a> 
+               <a href="#about"><li>About Me</li></a> 
+               <a href="Pankaj_Junior Front End Developer_Resume.pdf" target="_"><li>Resume</li></a> 
+               <a href="https://www.youtube.com/channel/UC9KWAi5UaPQc7R5DxyfAx2w" target="_"><li> My Guitar Covers </li></a> 
+               <a href="#contact"><li> Contact </li></a>
+             </ul>
+                </div>
+            
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Nǐ hǎo(Hello)...My name is
+                <strong class="color">Pankaj Roy</strong>
+                <span>and I am a Passionate </span>
+                <span id="element"></span>
+                 </div>
+            <div class="rightsection">
+                <img src="Pankajpic.jpg" alt="Unable to load Picture">
+            </div>
+
+        </section>
+        <section class="secondsection">
+            <hr>
+            <h1 id="about">About Me</h1>
+            <p>Hey there! I'm Pankaj Roy, a passionate guitarist whose love for artistic expression led me to dive into the world of front-end development. Choosing front-end development allows me to infuse every project with a unique artistic touch. I've had the incredible opportunity to work as a Front-End Developer at Wipro for nearly two years, and I was fortunate enough to collaborate with Google as my esteemed client. It's been an awesome journey!</p>
+            <br>
+            <ul class="about">
+          <h3>Skills</h3>
+          <li>ReactJS</li>
+          <li>Javascript</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>jQuery</li>
+          <li>Redux</li>
+            </ul>
+        </section>
+        <section class="thirdsection">
+            <h3 id="contact">Connect With Me</h3>
+           <ul>
+            <a href="https://www.linkedin.com/in/pankaj-roy-a011a31b6/" target="_"><li>LinkedIn</li></a>
+            <a href="https://www.instagram.com/pankajr2697/?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D" target="_"><li>Instagram</li></a>
+            <a href="https://github.com/Pankaj4roy" target="_"><li>GitHub</li></a>
+           </ul>
+        </section>
+
+<section class="contact-section">
+    <h3>Contact Me</h3>
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pankaj Roy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.','Front End Developer',  '  Guitarist...'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html> 
