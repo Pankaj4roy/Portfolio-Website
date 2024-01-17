@@ -1,0 +1,339 @@
+   body{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(15, 13, 13);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+  
+}
+nav ul li{
+    list-style: none;
+    margin: 0 12px;
+}
+.left{
+   font-size: 3rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+        background-image: url('p2\(1\).jpg');
+        /* Additional background properties if needed */
+        background-repeat: no-repeat; /* Optional: controls image repetition */
+        background-size: cover; /* Optional: controls how the image is sized within the container */
+        /* Add other background-related properties as needed */
+      
+      
+ 
+}
+main hr{
+    color: red;
+}
+
+.leftsection{
+    width: 40%;
+    font-size: 4rem;
+}
+
+.rightsection{
+    width: 30%;
+}
+
+.rightsection img{
+width: 80%;
+margin: 35px 0;
+height: 90%;
+background-attachment: scroll;
+border-radius: 90px;
+margin-top: 10px;
+}
+.color{
+    color: rgb(208, 15, 15);
+}
+ul li:hover{
+color: red;
+font-size: 2rem;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+#element{
+    color: rgb(208, 15, 15);
+}
+.secondsection{
+    max-width:90vw;
+    margin: auto;
+    height: 40vh;
+}
+.secondsection h1{
+    margin-top: 50px;
+}
+.about{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.thirdsection{
+    max-width:90vw;
+    margin: auto;
+    height:15vh;
+    margin-top: 300px;
+}
+.thirdsection ul{
+    list-style: none;
+}
+nav ul li:hover{
+    color: red;
+}
+
+footer {
+    background-color: rgb(15, 13, 13);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+.contact-section {
+    max-width: 90vw;
+    margin: auto;
+    height: 90vh;
+    margin-top: 100px;
+}
+
+.contact-section h3 {
+    margin-top: 40px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    font-size: 25px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+#submit{
+    font-size: 30px;
+}
+
+button {
+    background-color: rgb(208, 15, 15);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+ /* ----------------------------------------css for mobile devices */
+
+@media only screen and (max-width:600px){
+    .rightsection img {
+        width: 128px;
+        margin: 35px 0;
+        height: 257px;
+    }
+    .leftsection {
+        width: 40%;
+        font-size: 26px;
+    }
+
+
+    .left {
+        font-size: 26px;
+        width: 40%;
+        padding-top: 36px;
+    }
+
+     .right{
+        width: 30%;
+        font-size: 12px;
+     }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(15, 13, 13);
+    font-size: 13px;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 34px 0;
+    background-image: url('p2\(1\).jpg');
+    /* Additional background properties if needed */
+    background-repeat: no-repeat; /* Optional: controls image repetition */
+    background-size: cover; /* Optional: controls how the image is sized within the container */
+    /* Add other background-related properties as needed */
+}
+#about{
+font-size: 27px;
+margin-top: 10px;
+}
+
+.secondsection{
+    max-width:90vw;
+    margin: auto;
+    height: 40vh;
+    font-size: 12px;
+}
+.about{
+    margin: -9px;
+}
+.thirdsection {
+    max-width: 90vw;
+    margin: auto;
+    height: 15vh;
+    font-size: 18px;
+    margin-top: -8px;
+}
+.contact-section {
+    max-width: 90vw;
+    margin: auto;
+    height: 60vh;
+    font-size: 20px;
+}
+label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+footer {
+    background-color: rgb(15, 13, 13);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 13px;
+}
+#submit {
+    font-size: 20px;
+}
+
+}
+
+ /* ----------------------------------------css for Laptops  */
+ @media only screen   
+and (min-device-width : 600px)   
+and (max-device-width : 1024px) {
+    .rightsection img {
+        width: 186px;
+        margin: 35px 0;
+        height: 221px;
+        margin-top: 4px;
+    }
+    .rightsection{
+        width: 50%;
+    }
+    .leftsection {
+        width: 70%;
+        font-size: 26px;
+    }
+
+
+    .left {
+        font-size: 26px;
+        width: 40%;
+        padding-top: 36px;
+    }
+
+     .right{
+        width: 30%;
+        font-size: 12px;
+     }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(15, 13, 13);
+    font-size: 13px;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 34px 0;
+}
+#about{
+font-size: 27px;
+margin-top: 10px;
+}
+
+.secondsection{
+    max-width:90vw;
+    margin: auto;
+    height: 40vh;
+    font-size: 12px;
+
+}
+.about{
+    margin: -5px;
+}
+.thirdsection {
+    max-width: 90vw;
+    margin: auto;
+    height: 15vh;
+    font-size: 18px;
+    margin-top: -2px;
+}
+.contact-section {
+    max-width: 90vw;
+    margin: auto;
+    height: 70vh;
+    margin-top: 100px;
+}
+label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+footer {
+    background-color: rgb(15, 13, 13);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 13px;
+}
+#submit {
+    font-size: 30px;
+}
+
+}
